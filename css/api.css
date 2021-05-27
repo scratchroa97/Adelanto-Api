@@ -1,0 +1,22 @@
+.cuerpo{
+    background: rgba(255, 251, 0, 0.5);
+}
+.imgnav{
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+}
+.minav{
+    padding-left: 22% !important;
+}
+.botoncitobus{
+    border-color: yellow !important;
+    color: yellow !important;
+}
+.bg-primary{
+    background-color: rgba(39, 58, 226, 0.705) !important;
+}
+.copyr{
+    height: 60px;
+    width: 60px;
+} 

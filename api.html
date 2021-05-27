@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Rick And Morty</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary justify-content-end minav ">
+    <a href="api.html"> <img src="img/rick_morty_.png" class="imgnav" alt=""></a>
+    <a class="navbar-brand " target="_blank" href="https://rickandmortyapi.com/">Rick And Morty API <img src="img/Copyright.png" class="copyr"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="¿Que Estas Buscando?" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-2 botoncitobus" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav>
+
+<body class="cuerpo" onload="alertinicial()" >
+    <div class="container">
+        <div class="row" id="ApiDataRM">
+            <div class="">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/sweetalert2@10.js"></script>
+    <script src="js/api.js"></script>
+</body>
+<footer>
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#" onclick="paginas(1)">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="paginas(2)">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="paginas(3)">3</a></li>
+        <li class="page-item"><a class="page-link" href="#" onclick="paginas(4)">4</a></li>
+    </ul>
+</footer>
+
+</html>
